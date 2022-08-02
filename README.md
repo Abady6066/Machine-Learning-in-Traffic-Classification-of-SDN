@@ -6,20 +6,25 @@ the calssification of traffic flows in today's IP network has become an importan
 
 ## Process 
 
-*Build Topology
+*Build Topology*
+
 	Setup virtualBox with Host, Switch, Controller VM
 	Create Internal network as underlay network
 	Configure overlay network
 
-*Simulation Traffic Flows
+*Simulation Traffic Flows*
+
 	Use simulation tools to send various traffic flows between hosts 
 	Modify controller scripts to output required data
 
-*Collect Training Data
+*Collect Training Data*
+
 	Write scripts to collect output of controller monotoring application
 
-*Train Models
+*Train Models*
+
 	Using Jupyter Notebook, train and test supervised and unsupervised Machine Learning Models.
 
-*Use Models Real Time
+*Use Models Real Time*
+
 	Usung Models created in Notebook, Classify traffic real time from data collected from Ryu App.

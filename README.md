@@ -1,10 +1,10 @@
 # Machine-Learning-in-Traffic-Classification-of-SDN
 
-##Problem Definition 
+## Problem Definition 
 
 the calssification of traffic flows in today's IP network has become an important research area with the adopation of machine learning techniques and Software Defined Network (SDN) Principles. Traditional methodologies including identifying traffic based on port number and payload inspection are not effective due to the dynamic and encrypted nature of current traffic. This project will attempt to utilize Supervised and Unsupervised ML Algorithms to classify flows based on packet and Byte information.
 
-##Process 
+## Process 
 
 *Build Topology
 	Setup virtualBox with Host, Switch, Controller VM
